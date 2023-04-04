@@ -1,0 +1,106 @@
+{
+  "window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
+  "editor.tabSize": 2,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.inlayHints.enabled": "on",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontLigatures": true,
+  "update.showReleaseNotes": true,
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#80808010"
+  },
+  "editor.fontFamily": "Liberation Mono",
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "Monocraft",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "editor.fontSize": 14,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.gpuAcceleration": "canvas",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.menuBarVisibility": "hidden",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "extensions.ignoreRecommendations": true,
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.localHistory.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "liveshare.accessibility.voiceEnabled": false,
+  "svelte.enable-ts-plugin": true,
+  "screencastMode.fontSize": 25,
+  "screencastMode.verticalOffset": 0,
+  "screencastMode.keyboardOverlayTimeout": 1000,
+  "screencastMode.mouseIndicatorSize": 25,
+  "screencastMode.mouseIndicatorColor": "#569cd6",
+  "auto-run-command.rules": [
+    {
+      "condition": "always",
+      "command": "workbench.action.toggleScreencastMode",
+      "message": "Running a Screencast Mode"
+    }
+  ],
+  "git.branchProtection": ["master", "gh-pages"],
+  "git.branchProtectionPrompt": "alwaysPrompt",
+  "git.confirmSync": false,
+  "liveshare.presence": true,
+  "json.validate.enable": true,
+  "go.toolsManagement.autoUpdate": true,
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.suggestSmartCommit": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  }
+}

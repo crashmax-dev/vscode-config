@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+'",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "alt+right",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorLineStart"
+  }
+]
