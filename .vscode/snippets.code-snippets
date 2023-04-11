@@ -14,5 +14,31 @@
       "resolve(dirname(fileURLToPath(import.meta.url)), $0)"
     ],
     "description": "ESM __dirname"
+  },
+  "new-vitest-describe": {
+    "scope": "javascript,typescript",
+    "prefix": "vi-describe",
+    "body": [
+      "describe('$0', (test) => {",
+      "  test('should be defined', () => {",
+      "    ",
+      "  })",
+      "})"
+    ],
+  },
+  "new-vitest-file": {
+    "scope": "javascript,typescript",
+    "prefix": "vi-test",
+    "isFileTemplate": true,
+    "body": [
+      "import { describe, expect } from 'vitest'",
+      "import { $2 } from '../src/$1.js'",
+      "",
+      "describe('$2', (test) => {",
+      "  test('should be defined', () => {",
+      "    ",
+      "  })",
+      "})"
+    ]
   }
 }
