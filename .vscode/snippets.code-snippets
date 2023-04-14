@@ -4,16 +4,14 @@
     "prefix": "im",
     "body": [
       "import { $1 } from '$2'"
-    ],
-    "description": "Import a module"
+    ]
   },
   "esm-dirname": {
     "scope": "javascript,typescript",
     "prefix": "__dirname",
     "body": [
       "resolve(dirname(fileURLToPath(import.meta.url)), $0)"
-    ],
-    "description": "ESM __dirname"
+    ]
   },
   "new-vitest-describe": {
     "scope": "javascript,typescript",
@@ -29,7 +27,6 @@
   "new-vitest-file": {
     "scope": "javascript,typescript",
     "prefix": "vi-test",
-    "isFileTemplate": true,
     "body": [
       "import { describe, expect } from 'vitest'",
       "import { $2 } from '../src/$1.js'",
