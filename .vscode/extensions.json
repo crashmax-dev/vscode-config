@@ -33,6 +33,7 @@
     "golang.go",
     "mrmlnc.vscode-scss",
     "Prisma.prisma",
-    "Vue.volar"
+    "Vue.volar",
+    "tldraw-org.tldraw-vscode"
   ]
 }
