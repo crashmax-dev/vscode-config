@@ -34,6 +34,7 @@
     "mrmlnc.vscode-scss",
     "Prisma.prisma",
     "Vue.volar",
-    "tldraw-org.tldraw-vscode"
+    "tldraw-org.tldraw-vscode",
+    "ZixuanChen.vitest-explorer"
   ]
 }
