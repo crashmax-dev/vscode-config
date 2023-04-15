@@ -1,20 +1,20 @@
 {
   "import": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,typescriptreact",
     "prefix": "im",
     "body": [
       "import { $1 } from '$2'"
     ]
   },
   "esm-dirname": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,typescriptreact",
     "prefix": "__dirname",
     "body": [
       "resolve(dirname(fileURLToPath(import.meta.url)), $0)"
     ]
   },
   "new-vitest-describe": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,typescriptreact",
     "prefix": "vi-describe",
     "body": [
       "describe('$0', (test) => {",
@@ -25,7 +25,7 @@
     ],
   },
   "new-vitest-file": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,typescriptreact",
     "prefix": "vi-test",
     "body": [
       "import { describe, expect } from 'vitest'",
