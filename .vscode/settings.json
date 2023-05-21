@@ -1,4 +1,7 @@
 {
+  "diffEditor.diffAlgorithm": "advanced",
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
   "window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
   "editor.tabSize": 2,
   "terminal.integrated.smoothScrolling": true,
@@ -66,7 +69,10 @@
       "message": "Running a Screencast Mode"
     }
   ],
-  "git.branchProtection": ["master", "gh-pages"],
+  "git.branchProtection": [
+    "master",
+    "gh-pages"
+  ],
   "git.branchProtectionPrompt": "alwaysPrompt",
   "git.confirmSync": false,
   "liveshare.presence": true,
@@ -79,16 +85,16 @@
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -96,11 +102,15 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "svelte.plugin.svelte.note-new-transformation": false,
   "git.suggestSmartCommit": false,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
     "plaintext": false,
     "markdown": true
-  }
+  },
+  "githubPullRequests.fileListLayout": "tree",
+  "githubPullRequests.pullBranch": "never",
+  "workbench.colorTheme": "Default Dark+"
 }
