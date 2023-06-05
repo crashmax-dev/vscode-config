@@ -1,7 +1,4 @@
 {
-  "diffEditor.diffAlgorithm": "advanced",
-  "javascript.preferences.renameMatchingJsxTags": true,
-  "typescript.preferences.renameMatchingJsxTags": true,
   "window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
   "editor.tabSize": 2,
   "terminal.integrated.smoothScrolling": true,
@@ -13,6 +10,12 @@
   "editor.inlayHints.enabled": "on",
   "editor.bracketPairColorization.enabled": false,
   "editor.fontLigatures": true,
+  "editor.matchBrackets": "near",
+  "codeium.enableCodeLens": false,
+  "editor.linkedEditing": true,
+  "diffEditor.diffAlgorithm": "advanced",
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
   "update.showReleaseNotes": true,
   "editor.rulers": [
     80
@@ -28,6 +31,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": false
   },
+  "git.mergeEditor": true,
   "editor.fontSize": 14,
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.cursorBlinking": true,
@@ -40,6 +44,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "liveServer.settings.donotShowInfoMsg": true,
+  "doppler.hover.enable": false,
   "extensions.ignoreRecommendations": true,
   "explorer.compactFolders": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -112,5 +117,8 @@
   },
   "githubPullRequests.fileListLayout": "tree",
   "githubPullRequests.pullBranch": "never",
-  "workbench.colorTheme": "Default Dark+"
+  "workbench.colorTheme": "Default Dark+",
+  "codeium.enableConfig": {
+    "*": false
+  }
 }
