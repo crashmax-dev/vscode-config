@@ -1,4 +1,47 @@
 {
+  "solidjs-component": {
+    "scope": "typescriptreact",
+    "prefix": "solid-component",
+    "body": [
+      "import type { Component } from 'solid-js'",
+      "",
+      "export const $1: Component = () => {",
+      "  return (",
+      "    $0",
+      "  )",
+      "}"
+    ],
+  },
+  "solidjs-flow-component": {
+    "scope": "typescriptreact",
+    "prefix": "solid-flow-component",
+    "body": [
+      "import type { FlowComponent } from 'solid-js'",
+      "",
+      "type Props = {}",
+      "",
+      "export const $1: FlowComponent<Props> = (props) => {",
+      "  return (",
+      "    $0",
+      "  )",
+      "}"
+    ],
+  },
+  "solidjs-props-component": {
+    "scope": "typescriptreact",
+    "prefix": "solid-props-component",
+    "body": [
+      "import type { Component } from 'solid-js'",
+      "",
+      "type Props = {}",
+      "",
+      "export const $1: Component<Props> = (props) => {",
+      "  return (",
+      "    $0",
+      "  )",
+      "}"
+    ],
+  },
   "import": {
     "scope": "javascript,typescript,typescriptreact",
     "prefix": "im",
