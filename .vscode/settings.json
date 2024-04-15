@@ -1,7 +1,9 @@
 {
-  "window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
+	"window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
   "window.menuBarVisibility": "hidden",
-  "window.zoomLevel": 1,
+	"window.customTitleBarVisibility": "auto",
+	"window.commandCenter": false,
+	"window.zoomLevel": 1,
   "editor.tabSize": 2,
   "editor.inlineSuggest.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -16,10 +18,14 @@
   "editor.matchBrackets": "near",
   "editor.linkedEditing": true,
   "editor.rulers": [80],
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "Iosevka",
+  // "editor.fontFamily": "Iosevka Term",
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
   // "editor.fontFamily": "Monocraft",
   // "editor.fontFamily": "Liberation Mono",
-  "editor.fontSize": 14,
+	"editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontSize": 15,
+  "editor.fontWeight": 400,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.cursorBlinking": "smooth",
   "editor.unicodeHighlight.invisibleCharacters": false,
@@ -28,15 +34,18 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "never"
   },
+  "scm.showChangesSummary": true,
   "git.mergeEditor": true,
   "git.suggestSmartCommit": false,
   "git.branchProtection": ["gh-pages"],
   "git.branchProtectionPrompt": "alwaysPrompt",
   "git.confirmSync": false,
-  "diffEditor.diffAlgorithm": "advanced",
+  "git.openRepositoryInParentFolders": "never",
   "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.diffAlgorithm": "advanced",
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.localHistory.enabled": false,
   "workbench.list.smoothScrolling": true,
@@ -46,6 +55,7 @@
     "editorRuler.foreground": "#80808010"
   },
   "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.mouseWheelZoom": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.minimumContrastRatio": 1,
@@ -59,7 +69,6 @@
   "explorer.compactFolders": false,
   "json.validate.enable": true,
   "search.useIgnoreFiles": true,
-  "update.showReleaseNotes": true,
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "javascript.preferences.renameMatchingJsxTags": true,
@@ -84,6 +93,8 @@
       "message": "Running a Screencast Mode"
     }
   ],
+	"prettify-ts.enableHover": false,
+  "prettify-ts.viewNestedTypes": false,
   "extensions.ignoreRecommendations": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "doppler.hover.enable": false,
@@ -111,7 +122,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -125,11 +136,10 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "vue.server.hybridMode": true,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "prettify-ts.enableHover": false,
-  "prettify-ts.viewNestedTypes": false,
   // "http.proxy": "http://foo:bar@example.com:1337",
   // "http.proxyStrictSSL": false,
   // "http.proxySupport": "on",
