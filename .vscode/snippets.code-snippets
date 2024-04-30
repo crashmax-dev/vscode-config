@@ -51,7 +51,7 @@
   },
   "esm-dirname": {
     "scope": "javascript,typescript,typescriptreact",
-    "prefix": "__dirname",
+    "prefix": "esm_dirname",
     "body": [
       "resolve(dirname(fileURLToPath(import.meta.url)), $0)"
     ]
@@ -80,5 +80,21 @@
       "  })",
       "})"
     ]
-  }
+  },
+  "vue": {
+    "scope": "vue",
+		"prefix": "vue",
+		"body": [
+			"<script setup lang=\"ts\">",
+			"${1}",
+			"</script>",
+			"",
+			"<template>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "vue"
+	}
 }
