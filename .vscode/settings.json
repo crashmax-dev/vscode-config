@@ -28,8 +28,8 @@
   "editor.fontWeight": 400,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.cursorBlinking": "smooth",
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "never"
@@ -59,7 +59,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.minimumContrastRatio": 1,
-  "terminal.integrated.gpuAcceleration": "canvas",
+  "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   // "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
