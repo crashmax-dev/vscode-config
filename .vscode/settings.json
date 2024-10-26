@@ -75,6 +75,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.inlayHints.variableTypes.enabled": false,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  // show references
   "typescript.referencesCodeLens.enabled": true,
   "screencastMode.fontSize": 25,
   "screencastMode.verticalOffset": 0,
@@ -116,17 +117,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
-  },
-  "window.zoomLevel": 1,
-  "codeium.enableConfig": {
-    "*": true
   },
   // "http.proxy": "http://foo:bar@example.com:1337",
   // "http.proxyStrictSSL": false,
