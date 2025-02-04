@@ -2,6 +2,7 @@
   "window.title": "${dirty}${appName} ¯\\_(ツ)_/¯ ${rootName}",
   "window.menuBarVisibility": "hidden",
   "window.commandCenter": false,
+  "window.zoomLevel": 1,
   "editor.tabSize": 2,
   "editor.inlineSuggest.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -38,11 +39,12 @@
   "git.branchProtectionPrompt": "alwaysPrompt",
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "never",
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.diffAlgorithm": "advanced",
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
+  "workbench.editor.wrapTabs": true,
   "workbench.editor.enablePreview": false,
   "workbench.localHistory.enabled": false,
   "workbench.list.smoothScrolling": true,
@@ -93,11 +95,18 @@
   "prettify-ts.viewNestedTypes": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "doppler.hover.enable": false,
-  "go.toolsManagement.autoUpdate": true,
   "svelte.enable-ts-plugin": true,
+  "gitlab.duoChat.enabled": false,
+  "gitlab.duoCodeSuggestions.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
   "liveshare.accessibility.voiceEnabled": false,
+  "vue.updateImportsOnFileMove.enabled": true,
   "redhat.telemetry.enabled": false,
   "codeium.enableCodeLens": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
   "[css]": {
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
@@ -124,8 +133,5 @@
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
-  },
-  // "http.proxy": "http://foo:bar@example.com:1337",
-  // "http.proxyStrictSSL": false,
-  // "http.proxySupport": "on",
+  }
 }
